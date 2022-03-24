@@ -1,0 +1,27 @@
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+
+
+
+/*------------------------
+main code start here 
+-------------------------*/
+#blog__banner{
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blog__title{
+    background-color: #284734;
+    padding: 20px 0px;
+    .content{
+        h3{
+            color: #fff;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+}
