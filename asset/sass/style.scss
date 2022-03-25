@@ -93,6 +93,27 @@ main code start here
         }
     }
 }
+.ref__link{
+    background-color: #fff;
+    padding-bottom: 50px;
+    .ref__content{
+        p{
+            font-style: italic;
+            color: #B5B5B5;
+            font-weight: 400;
+        }
+        a{
+            width: 100%;
+            display: block;
+            margin-top: 5px;
+            color: #B5B5B5;
+            text-decoration: underline;
+            &:hover{
+                color: #379D9A;
+            }
+        }
+    }
+}
 @media (min-width:992px) and (max-width:1199px) {
     .quick__facts .single__item{
         margin-bottom: 30px;
